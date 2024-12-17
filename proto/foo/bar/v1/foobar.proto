@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package foo.bar.v1;
+
+option go_package = "github.com/dylan-bourque/buf-breaking-repro/proto/foo/bar/v1";
+
+message Foo {
+  string name = 1;
+}
