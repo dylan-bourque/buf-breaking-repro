@@ -7,3 +7,7 @@ option go_package = "github.com/dylan-bourque/buf-breaking-repro/proto/foo/bar/v
 message Foo {
   string name = 1;
 }
+
+message Bar {
+  int64 value = 1;
+}
